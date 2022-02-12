@@ -1,0 +1,64 @@
+{
+  "collectionName": "components_page_call2actions",
+  "info": {
+    "name": "call2action",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "style": {
+      "type": "component",
+      "repeatable": false,
+      "component": "style.style"
+    },
+    "first_element": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "image"
+      ],
+      "unique": false,
+      "required": true,
+      "default": "text"
+    },
+    "animation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "animation.animation"
+    },
+    "color": {
+      "type": "component",
+      "repeatable": false,
+      "component": "style.color"
+    },
+    "anchor_up": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.anchors"
+    },
+    "anchor_down": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.anchors"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "collectionName": "components_slider_settings",
+  "info": {
+    "name": "settings",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "slide_to_show": {
+      "type": "integer",
+      "required": true,
+      "default": 1
+    },
+    "slide_to_scroll": {
+      "type": "integer"
+    },
+    "direction": {
+      "type": "enumeration",
+      "enum": [
+        "horizontal",
+        "vertical"
+      ],
+      "default": "horizontal",
+      "required": true
+    },
+    "vertical_swipe": {
+      "type": "boolean",
+      "default": false
+    },
+    "speed": {
+      "type": "integer"
+    },
+    "arrows": {
+      "type": "boolean",
+      "default": false
+    },
+    "dots": {
+      "type": "boolean",
+      "default": false
+    },
+    "fade": {
+      "type": "boolean",
+      "default": false
+    },
+    "infinite": {
+      "type": "boolean",
+      "default": false
+    },
+    "pause_on_focus": {
+      "type": "boolean",
+      "default": false
+    },
+    "pause_on_hover": {
+      "type": "boolean",
+      "default": false
+    },
+    "pause_on_dots_hover": {
+      "type": "boolean"
+    },
+    "breakpoint": {
+      "type": "integer"
+    },
+    "center_mode": {
+      "type": "boolean",
+      "default": false
+    },
+    "center_padding": {
+      "type": "integer"
+    },
+    "auto_play": {
+      "type": "boolean",
+      "default": false
+    },
+    "swipe": {
+      "type": "boolean",
+      "default": false
+    },
+    "rows": {
+      "type": "integer",
+      "default": 1
+    },
+    "slides_per_row": {
+      "type": "integer"
+    }
+  }
+}

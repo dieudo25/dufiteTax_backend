@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_buttons",
+  "info": {
+    "name": "button",
+    "icon": "mouse-pointer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "color_hover": {
+      "type": "string"
+    },
+    "page": {
+      "model": "page"
+    }
+  }
+}

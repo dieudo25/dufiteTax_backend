@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_page_cards",
+  "info": {
+    "name": "card",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "color": {
+      "type": "string"
+    },
+    "page": {
+      "model": "page"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

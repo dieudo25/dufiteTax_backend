@@ -18,6 +18,9 @@
     },
     "page": {
       "model": "page"
+    },
+    "external_page": {
+      "type": "string"
     }
   }
 }

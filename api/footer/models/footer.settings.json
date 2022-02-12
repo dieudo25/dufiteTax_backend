@@ -17,29 +17,18 @@
       "repeatable": false,
       "component": "navigation.logo"
     },
-    "text": {
-      "type": "richtext"
-    },
     "menu": {
       "type": "component",
       "repeatable": true,
       "component": "navigation.link"
     },
-    "card": {
-      "type": "component",
-      "repeatable": true,
-      "component": "page.card"
-    },
     "copyright": {
       "type": "string"
     },
-    "logo_2": {
+    "socials": {
       "type": "component",
-      "repeatable": false,
-      "component": "navigation.logo"
-    },
-    "text_2": {
-      "type": "richtext"
+      "repeatable": true,
+      "component": "link.image-link"
     }
   }
 }

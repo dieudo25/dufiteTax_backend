@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_link_image_links",
+  "info": {
+    "name": "imageLink",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "external_page": {
+      "type": "string"
+    }
+  }
+}

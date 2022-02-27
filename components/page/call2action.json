@@ -59,6 +59,23 @@
       "type": "component",
       "repeatable": false,
       "component": "link.anchors"
+    },
+    "section_width": {
+      "type": "enumeration",
+      "enum": [
+        "full",
+        "container"
+      ],
+      "default": "container"
+    },
+    "bigger_items": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "image",
+        "text"
+      ],
+      "default": "none"
     }
   }
 }

@@ -27,20 +27,23 @@
       "repeatable": false,
       "component": "style.style"
     },
-    "info": {
-      "type": "component",
-      "repeatable": true,
-      "component": "page.card"
-    },
     "contact_us": {
       "type": "component",
       "repeatable": false,
       "component": "page.button"
     },
-    "winbooks_link": {
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "string"
+    },
+    "customer_zone": {
       "type": "component",
       "repeatable": false,
-      "component": "page.button"
+      "component": "link.external-page",
+      "unique": false
     }
   }
 }

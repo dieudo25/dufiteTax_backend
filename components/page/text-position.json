@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_text_positions",
+  "info": {
+    "name": "textPosition",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "vertical": {
+      "type": "enumeration",
+      "enum": [
+        "top",
+        "bottom",
+        "center"
+      ],
+      "default": "top"
+    },
+    "horizontal": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right",
+        "center"
+      ],
+      "default": "left"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_page_slider_image_ctas",
+  "info": {
+    "name": "SliderImageCTA",
+    "icon": "object-ungroup"
+  },
+  "options": {},
+  "attributes": {
+    "settings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slider.settings"
+    },
+    "responsive_settings": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slider.settings"
+    },
+    "style": {
+      "type": "component",
+      "repeatable": false,
+      "component": "style.style"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.cta"
+    }
+  }
+}

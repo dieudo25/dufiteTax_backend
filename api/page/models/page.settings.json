@@ -30,7 +30,9 @@
         "page.header",
         "page.grid",
         "page.paragraph",
-        "page.rich-text2-image"
+        "page.rich-text2-image",
+        "page.slider-image-cta",
+        "page.bg-image-text"
       ]
     }
   }

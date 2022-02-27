@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_style_bg_colors",
+  "info": {
+    "name": "BgColor",
+    "icon": "record-vinyl",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "string"
+    },
+    "color_hover": {
+      "type": "string"
+    }
+  }
+}

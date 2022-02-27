@@ -25,10 +25,17 @@
     "copyright": {
       "type": "string"
     },
-    "socials": {
-      "type": "component",
-      "repeatable": true,
-      "component": "link.image-link"
+    "facebook": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
     }
   }
 }

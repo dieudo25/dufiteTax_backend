@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_page_bg_image_texts",
+  "info": {
+    "name": "bgImageText",
+    "icon": "digital-tachograph",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "text_position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.text-position"
+    },
+    "text_animation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "animation.animation"
+    },
+    "style": {
+      "type": "component",
+      "repeatable": false,
+      "component": "style.style"
+    },
+    "is_full_width": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_page_buttons",
+  "collectionName": "components_link_external_pages",
   "info": {
-    "name": "button",
-    "icon": "mouse-pointer",
+    "name": "external_page",
+    "icon": "battery-empty",
     "description": ""
   },
   "options": {},
@@ -16,9 +16,6 @@
     "bg_color_hover": {
       "type": "string"
     },
-    "page": {
-      "model": "page"
-    },
     "text_color": {
       "type": "string"
     },
@@ -29,6 +26,9 @@
       "type": "string"
     },
     "border_color_hover": {
+      "type": "string"
+    },
+    "link": {
       "type": "string"
     }
   }

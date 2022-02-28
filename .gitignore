@@ -118,3 +118,4 @@ script/dump.sh
 script/server_init.sh
 **.pgdump
 **.pgsql
+script/load.sh

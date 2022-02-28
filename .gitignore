@@ -116,3 +116,5 @@ build
 script/dump.sh
 .vscode/
 script/server_init.sh
+**.pgdump
+**.pgsql

@@ -115,3 +115,4 @@ build
 .tmp/data.db
 script/dump.sh
 .vscode/
+script/server_init.sh

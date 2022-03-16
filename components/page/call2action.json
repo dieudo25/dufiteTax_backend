@@ -45,11 +45,6 @@
       "repeatable": false,
       "component": "animation.animation"
     },
-    "color": {
-      "type": "component",
-      "repeatable": false,
-      "component": "style.color"
-    },
     "anchor_up": {
       "type": "component",
       "repeatable": false,
@@ -60,14 +55,6 @@
       "repeatable": false,
       "component": "link.anchors"
     },
-    "section_width": {
-      "type": "enumeration",
-      "enum": [
-        "full",
-        "container"
-      ],
-      "default": "container"
-    },
     "bigger_items": {
       "type": "enumeration",
       "enum": [
@@ -76,6 +63,18 @@
         "text"
       ],
       "default": "none"
+    },
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "style.box-style",
+      "required": true
+    },
+    "container": {
+      "type": "component",
+      "repeatable": false,
+      "component": "style.box-style",
+      "required": true
     }
   }
 }

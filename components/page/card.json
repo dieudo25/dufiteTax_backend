@@ -17,7 +17,7 @@
       "required": true,
       "pluginOptions": {}
     },
-    "color": {
+    "text_color": {
       "type": "string"
     },
     "page": {
@@ -25,6 +25,15 @@
     },
     "text": {
       "type": "richtext"
+    },
+    "bg_color": {
+      "type": "string"
+    },
+    "border_color": {
+      "type": "string"
+    },
+    "css_classes": {
+      "type": "string"
     }
   }
 }

@@ -25,6 +25,16 @@
       "type": "component",
       "repeatable": false,
       "component": "page.button"
+    },
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "style.box-style"
+    },
+    "container": {
+      "type": "component",
+      "repeatable": false,
+      "component": "style.box-style"
     }
   }
 }

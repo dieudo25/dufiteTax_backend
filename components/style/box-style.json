@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_style_box_styles",
+  "info": {
+    "name": "boxStyle",
+    "icon": "box"
+  },
+  "options": {},
+  "attributes": {
+    "bg_color": {
+      "type": "string"
+    },
+    "bg_color_hover": {
+      "type": "string"
+    },
+    "border_color": {
+      "type": "string"
+    },
+    "border_color_hover": {
+      "type": "string"
+    },
+    "is_full_width": {
+      "type": "boolean"
+    }
+  }
+}

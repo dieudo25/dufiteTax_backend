@@ -2,7 +2,8 @@
   "collectionName": "components_style_box_styles",
   "info": {
     "name": "boxStyle",
-    "icon": "box"
+    "icon": "box",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -19,7 +20,8 @@
       "type": "string"
     },
     "is_full_width": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     }
   }
 }

@@ -13,6 +13,7 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "@strapi/provider-email-sendgrid": "^4.1.9",
     "knex": "0.21.18",
     "mysql": "2.18.1",
     "pg": "^8.7.3",

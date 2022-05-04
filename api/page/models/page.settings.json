@@ -32,7 +32,8 @@
         "page.paragraph",
         "page.rich-text2-image",
         "page.slider-image-cta",
-        "page.bg-image-text"
+        "page.bg-image-text",
+        "form.contact-form"
       ]
     }
   }

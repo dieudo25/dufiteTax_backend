@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_forms",
+  "info": {
+    "name": "contactForm",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "company_name": {
+      "type": "string"
+    },
+    "company_num": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone_num": {
+      "type": "string"
+    },
+    "nb_facture_vente": {
+      "type": "integer"
+    },
+    "nb_facture_achat": {
+      "type": "integer"
+    },
+    "nb_transaction": {
+      "type": "integer"
+    },
+    "decla_tva": {
+      "type": "boolean"
+    },
+    "message": {
+      "type": "richtext"
+    },
+    "subject": {
+      "type": "enumeration",
+      "enum": [
+        "call",
+        "idea",
+        "company"
+      ]
+    }
+  }
+}

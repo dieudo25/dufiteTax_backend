@@ -29,7 +29,7 @@
         try {
             await strapi.plugins['email'].services.email.send({
                 to: 'twahirwa25@gmail.com',
-                from: 'dufitetax@gmail.com',
+                from: 'admin@dufitetaxadvisors.be',
                 subject: 'Test',
                 text: `
                     Company name : ${ entity.company_name }
@@ -42,7 +42,7 @@
         sgMail.setApiKey(process.env.SENDGRID_API_KEY)
         const msg = {
             to: 'twahirwa25@gmail.com',
-            from: 'dufitetax@gmail.com',
+            from: 'admin@dufitetaxadvisors.be',
             subject: 'Test',
             text: `
                 Company name : ${ entity.company_name }

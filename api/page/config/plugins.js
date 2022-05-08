@@ -6,8 +6,8 @@ module.exports = ({ env }) => ({
           apiKey: env('SENDGRID_API_KEY'),
         },
         settings: {
-          defaultFrom: 'dufitetax@gmail.com',
-          defaultReplyTo: 'dufitetax@gmail.com',
+          defaultFrom: 'admin@dufitetaxadvisors.be',
+          defaultReplyTo: 'admin@dufitetaxadvisors.be',
         },
       },
     },

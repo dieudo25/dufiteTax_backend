@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "emails",
+  "info": {
+    "name": "Email"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "company_name": {
+      "type": "richtext"
+    },
+    "company_num": {
+      "type": "richtext"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone_num": {
+      "type": "richtext"
+    },
+    "nb_facture_vente": {
+      "type": "integer"
+    },
+    "nb_facture_achat": {
+      "type": "integer"
+    },
+    "nb_transaction": {
+      "type": "integer"
+    },
+    "decla_tva": {
+      "type": "boolean"
+    },
+    "message": {
+      "type": "richtext"
+    },
+    "subject": {
+      "type": "enumeration",
+      "enum": [
+        "call",
+        "idea",
+        "company"
+      ]
+    }
+  }
+}

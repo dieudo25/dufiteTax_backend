@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "emails",
   "info": {
-    "name": "Email"
+    "name": "Email",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,17 +12,8 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "company_name": {
-      "type": "richtext"
-    },
-    "company_num": {
-      "type": "richtext"
-    },
     "email": {
       "type": "email"
-    },
-    "phone_num": {
-      "type": "richtext"
     },
     "nb_facture_vente": {
       "type": "integer"
@@ -45,6 +37,29 @@
         "idea",
         "company"
       ]
+    },
+    "company_name": {
+      "type": "string"
+    },
+    "company_num": {
+      "type": "string"
+    },
+    "phone_num": {
+      "type": "string"
+    },
+    "legal_form": {
+      "type": "enumeration",
+      "enum": [
+        "company",
+        "association",
+        "independent"
+      ]
+    },
+    "business_sector": {
+      "type": "string"
+    },
+    "revenue": {
+      "type": "decimal"
     }
   }
 }

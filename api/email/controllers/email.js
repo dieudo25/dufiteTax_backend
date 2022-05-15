@@ -214,8 +214,8 @@ ${ entity.message }
 )
 
 const callHtmlEmail = (entity) => (`
-    <h1 style="color:#7C0000">Vous avez une nouvelle opportunité !</h1>
-    <h2>Pour une entreprise / société / indépendant non existant(e).</h2>
+    <h1 style="color:#7C0000">Vous avez une nouvelle demande d'appel !</h1>
+    <h2>Objet : ${ entity.call_subject }.</h2>
     <div>
         <h3 style="color:#7C0000">Nom complet</h3> 
         <p>${ entity.company_name }</p>
@@ -235,10 +235,6 @@ const callHtmlEmail = (entity) => (`
             <li>${ entity.availibility_2 }</li>
             <li>${ entity.availibility_3 }</li>
         </ul>
-    </div>
-    <div>
-        <h3 style="color:#7C0000">Objet de la demandee</h3> 
-        <p>${ entity.call_subject }</p>
     </div>
     <div>
         <h3 style="color:#7C0000">Informations supplémentaires</h3>
@@ -269,7 +265,7 @@ const callHtmlEmail = (entity) => (`
         sgMail.setApiKey(process.env.SENDGRID_API_KEY)
         const msg = {
             to: 'twahirwa25@gmail.com',
-            from: 'gilles@dufitetaxadvisors.be',
+            from: 'info@dufitetaxadvisors.be',
             subject: subjectSwitch(entity.subject),
             text: messageSwitch(entity),
             html: messageHtmlSwitch(entity)

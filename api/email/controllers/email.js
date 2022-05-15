@@ -52,6 +52,10 @@ const messageHtmlSwitch = (entity) => {
     }
 }
 
+const getFullDate = (dateTime) => (
+    `${ new Date(dateTime).getDate() }/${ new Date(dateTime).getMonth() }/${ new Date(dateTime).getFullYear() } à ${ new Date(dateTime).getHours() }h${ new Date(dateTime).getMinutes() }`
+)
+
 const companyEmail = (entity) => (
 `
 Vous avez une nouvelle opportunité !
@@ -202,9 +206,10 @@ Numéro de téléphone : ${ entity.phone_num }
 
 Disponibilités : 
 
-    - ${ entity.availability_1 }
-    - ${ entity.availability_2 }
-    - ${ entity.availability_3 }
+    - ${ getFullDate(entity.availability_1) }
+    - ${ getFullDate(entity.availability_2) }
+    - ${ getFullDate(entity.availability_3) }
+    - ${ new Date(entity.availability_3).getDate() }/${ new Date(entity.availability_1).getMonth() }/${ new Date(entity.availability_1).getFullYear() } à ${ new Date(entity.availability_3).getHours() }h${ new Date(entity.availability_1).getMinutes() }
 
 Objet de la demande: ${ entity.nb_facture_vente }
 
@@ -231,9 +236,9 @@ const callHtmlEmail = (entity) => (`
     <div>
         <h3 style="color:#7C0000">Disponibilité</h3> 
         <ul>
-            <li>${ entity.availibility_1 }</li>
-            <li>${ entity.availibility_2 }</li>
-            <li>${ entity.availibility_3 }</li>
+            <li>${ getFullDate(entity.availability_1) }</li>
+            <li>${ getFullDate(entity.availability_2) }</li>
+            <li>${ getFullDate(entity.availability_3) }</li>
         </ul>
     </div>
     <div>

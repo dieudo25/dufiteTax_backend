@@ -16,13 +16,16 @@
       "type": "email"
     },
     "nb_facture_vente": {
-      "type": "integer"
+      "type": "integer",
+      "min": 0
     },
     "nb_facture_achat": {
-      "type": "integer"
+      "type": "integer",
+      "min": 0
     },
     "nb_transaction": {
-      "type": "integer"
+      "type": "integer",
+      "min": 0
     },
     "decla_tva": {
       "type": "boolean"
@@ -60,6 +63,18 @@
     },
     "revenue": {
       "type": "decimal"
+    },
+    "availability_1": {
+      "type": "datetime"
+    },
+    "availability_2": {
+      "type": "datetime"
+    },
+    "availability_3": {
+      "type": "datetime"
+    },
+    "call_subject": {
+      "type": "string"
     }
   }
 }

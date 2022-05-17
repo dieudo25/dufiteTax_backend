@@ -26,7 +26,7 @@ const subjectSwitch = (subject) => {
         case "idea":
             return "Nouvelle opportunité d'une entreprise / société / indépendant non existant(e) !"
         default:
-            return "Nouvelle deemande de contact !"
+            return "Nouvelle demande de contact !"
     }
 }
 

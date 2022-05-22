@@ -35,6 +35,12 @@
         "page.bg-image-text",
         "form.contact-form"
       ]
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.seo",
+      "required": true
     }
   }
 }

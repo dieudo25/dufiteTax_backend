@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_seos",
+  "info": {
+    "name": "seo",
+    "icon": "boxes"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

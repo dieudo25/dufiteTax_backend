@@ -36,6 +36,9 @@
     },
     "linkedin": {
       "type": "string"
+    },
+    "privacy_policy": {
+      "model": "page"
     }
   }
 }

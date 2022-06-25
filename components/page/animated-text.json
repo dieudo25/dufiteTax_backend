@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_animated_texts",
+  "info": {
+    "name": "animatedText",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    },
+    "animation_type": {
+      "type": "enumeration",
+      "enum": [
+        "fade",
+        "slide_up",
+        "slide_down",
+        "slide_left",
+        "slide_right",
+        "zoom_in",
+        "zoom_out",
+        "flip_up",
+        "flip_down",
+        "flip_left",
+        "flip_right"
+      ]
+    },
+    "animation_delay": {
+      "type": "integer",
+      "min": 0
+    }
+  }
+}

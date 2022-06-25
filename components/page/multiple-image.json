@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_multiple_images",
+  "info": {
+    "name": "multipleImage",
+    "icon": "window-maximize"
+  },
+  "options": {},
+  "attributes": {
+    "animatedImage": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.animated-image"
+    }
+  }
+}

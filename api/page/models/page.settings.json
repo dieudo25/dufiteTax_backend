@@ -33,7 +33,9 @@
         "page.rich-text2-image",
         "page.slider-image-cta",
         "page.bg-image-text",
-        "form.contact-form"
+        "form.contact-form",
+        "page.accordion",
+        "page.multiple-images-text"
       ]
     },
     "seo": {

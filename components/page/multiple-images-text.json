@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_page_multiple_images_texts",
+  "info": {
+    "name": "multipleImagesText",
+    "icon": "ankh",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.animated-image"
+    },
+    "style": {
+      "type": "component",
+      "repeatable": false,
+      "component": "style.style"
+    },
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "style.box-style"
+    },
+    "container": {
+      "type": "component",
+      "repeatable": false,
+      "component": "style.box-style"
+    },
+    "animatedText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.animated-text"
+    }
+  }
+}

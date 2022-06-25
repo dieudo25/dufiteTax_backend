@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_accordions",
+  "info": {
+    "name": "accordion",
+    "icon": "universal-access",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "style.box-style"
+    },
+    "container": {
+      "type": "component",
+      "repeatable": false,
+      "component": "style.box-style"
+    },
+    "style": {
+      "type": "component",
+      "repeatable": false,
+      "component": "style.style"
+    },
+    "headingText": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.heading-text"
+    }
+  }
+}

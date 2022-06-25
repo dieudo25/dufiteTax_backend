@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_heading_texts",
+  "info": {
+    "name": "headingText",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

@@ -22,9 +22,6 @@
       "repeatable": true,
       "component": "navigation.link"
     },
-    "copyright": {
-      "type": "string"
-    },
     "facebook": {
       "type": "string"
     },
@@ -37,8 +34,8 @@
     "linkedin": {
       "type": "string"
     },
-    "privacy_policy": {
-      "model": "page"
+    "copyright": {
+      "type": "richtext"
     }
   }
 }
